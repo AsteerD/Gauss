@@ -38,6 +38,9 @@ int main()
 
     free_matrix(A, n);
     free(b);
+    
+    testGauss1();
+
 
     return 0;
 }
